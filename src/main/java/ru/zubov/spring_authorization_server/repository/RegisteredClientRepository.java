@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface RegisteredClientRepository {
-
     @Nullable
     RegisteredClient findById(String id);
 
